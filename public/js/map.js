@@ -6,7 +6,7 @@ const map = new mapboxgl.Map({
   container: "map", // The ID of the HTML element to attach the map to
   style: "mapbox://styles/mapbox/streets-v11", // Mapbox style
   center: listing.geometry.coordinates, // Default map center [longitude, latitude]
-  zoom: 12, // Initial zoom level
+  zoom: 9, // Initial zoom level
 });
 
 // Create a new marker and add it to the map
